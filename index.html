@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monika Jakhar - Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #4a90e2, #9013fe);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    section {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #4a90e2;
+    }
+    .about {
+      text-align: center;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .project-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      transition: transform 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+    .skill {
+      background: #4a90e2;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #222;
+      color: white;
+    }
+    footer a {
+      color: #4a90e2;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Monika Jakhar</h1>
+    <p>B.Tech CSE Graduate | Aspiring Software Developer</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p class="about">
+      I am a passionate and dedicated Computer Science graduate from MNIT Jaipur, eager to contribute my skills in software development, AI, and data analytics. I enjoy solving complex problems and building impactful projects.
+    </p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Gesture Recognition using OpenCV</h3>
+        <p>Real-time hand gesture recognition system for controlling mouse and keyboard inputs using Python and OpenCV.</p>
+      </div>
+      <div class="project-card">
+        <h3>PHMS-Fed (Federated Learning)</h3>
+        <p>Federated learning framework for secure, decentralized healthcare data analysis using adaptive learning rates.</p>
+      </div>
+      <div class="project-card">
+        <h3>AI Chatbot</h3>
+        <p>Chatbot with human-like conversation abilities using Botpress and OpenAI GPT APIs.</p>
+      </div>
+      <div class="project-card">
+        <h3>Stock Market Trend Analysis</h3>
+        <p>Analyzed and visualized stock trends with predictive modeling using Python and Yahoo Finance API.</p>
+      </div>
+      <div class="project-card">
+        <h3>E-Commerce Analytics Dashboard</h3>
+        <p>Interactive dashboard to monitor sales, inventory, and customer behavior using Power BI and SQL.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <span class="skill">Python</span>
+      <span class="skill">C++</span>
+      <span class="skill">C</span>
+      <span class="skill">TensorFlow</span>
+      <span class="skill">OpenCV</span>
+      <span class="skill">Power BI</span>
+      <span class="skill">SQL</span>
+      <span class="skill">GitHub</span>
+      <span class="skill">Docker</span>
+      <span class="skill">Google Cloud</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Achievements</h2>
+    <p class="about">
+      - 2 CodeChef badges<br>
+      - Top 6.9% on LeetCode<br>
+      - Solved 250+ coding problems across multiple platforms
+    </p>
+  </section>
+
+  <footer>
+    <p>Connect with me:</p>
+    <a href="mailto:2021ucp1062@mnit.ac.in">Email</a>
+    <a href="https://github.com/MONIKA200313">GitHub</a>
+    <a href="https://www.linkedin.com/in/monika-jakhar-806185253/">LinkedIn</a>
+  </footer>
+</body>
+</html>
